@@ -1,0 +1,23 @@
+.main-home-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-home-section #title{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-grow: 1;
+}
+.main-home-section #display{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+
