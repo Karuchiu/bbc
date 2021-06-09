@@ -29,13 +29,14 @@ body {
   z-index: 10000;
 }
 .main-footer{
+  height: 70px;
+  width: 100%;
+  background-color:black;
+}
+.main-footer .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
-  width: 100vw;
-  background-color:black;
-  margin-top: 30px;
 }
 .bg{
   position: absolute;
@@ -92,7 +93,6 @@ a {
   max-width: 1400px;
   padding: 0 40px;
   margin: 0 auto;
-  flex-grow: 1;
 }
 .full-height-grow {
   display: flex;
@@ -160,11 +160,10 @@ h1 {
   position: absolute;
   width: 100vw;
   height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
   background-attachment: scroll;
   pointer-events: none;
-  opacity: 1;
+  opacity: .9;
   z-index: -1;
 }
 h2{
@@ -186,6 +185,7 @@ h2{
   align-items: center;
   justify-content: space-between;
   flex-grow: 1;
+  margin-bottom: 30px;
 }
 .album{
   display: flex;
