@@ -15,6 +15,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   
+  
 }
 .header {
   height: 100px;
@@ -33,21 +34,10 @@ body {
   width: 100%;
   background-color:black;
 }
-.main-footer .container{
+.main-footer .footer-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.bg{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top center;
-  pointer-events: none;
-  z-index: -1;
 }
 li {
   list-style: none;
@@ -72,13 +62,25 @@ a {
   margin: 0;
   padding: 0;
 }
-.main-nav ul, .footer-nav ul {
+.main-nav ul {
   display: flex;
   list-style: none;
   font-weight: 800;
   margin-left: 2rem;
 }
-.main-nav a, .footer-nav a {
+.footer-nav ul{
+  display: flex;
+  list-style: none;
+  font-weight: 800;
+  color: white;
+}
+.footer-nav a{
+  color: white;
+  text-decoration: none;
+  padding:  0 .4rem;
+  font-weight: 800;
+}
+.main-nav a {
   color: white;
   text-decoration: none;
   padding: 1.1rem;
@@ -98,33 +100,7 @@ a {
   display: flex;
   flex-direction: column;
 }
-#title {
-  position: absolute;
-  font-size: 6rem;
-  font-weight: 900;
-  color: black;
-  mix-blend-mode: color-burn;
-  top: 20%;
-  text-shadow: 5px 5px orangered;
-}
-#display{
-  position: absolute;
-  top: 30%;
-}
 
-.btn {
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-color: #eb5757;
-  font-weight: 500;
-  font-size: 1.5rem;
-  padding: 0.5rem 1.5rem;
-  border-radius: 0.75rem;
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
 .button {
   text-decoration: none;
   text-align: center;
@@ -145,30 +121,9 @@ h1 {
   mix-blend-mode: screen;
   transform: translateY(80%);
 }
-
-.section-2{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 0 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.bandana{
-  position: absolute;
-  width: 100vw;
-  height: 100%;
-  background-repeat: repeat;
-  background-attachment: scroll;
-  pointer-events: none;
-  opacity: .9;
-  z-index: -1;
-}
 h2{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 7vw;
+  font-size: 5vw;
   display: flex;
   justify-content: center;
   color: whitesmoke;
@@ -204,9 +159,5 @@ h2{
   font-size: 45px;
   font-weight: bold;
   color: white;
-  margin-bottom: 20px;
-}
-.social-link{
-  width: 1em;
-
+  margin-bottom: 10px;
 }
