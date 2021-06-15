@@ -78,10 +78,16 @@
   }
   #section-3{
       position: relative;
-      width: 50vw;
+      width: 55vw;
       height: 90vh;
-      background-color: blueviolet;
+      background-image: repeating-linear-gradient(black,#202027);
   }
+  #section-4{
+    position: relative;
+    width: 45vw;
+    height: 90vh;
+    background-image: repeating-linear-gradient(#202027, black);
+}
 .socials{
     background-color: white;
     left: 0px;
@@ -97,5 +103,30 @@
     width: .9em;
     height: .9em;
   }
-  
+  h4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+  }
+  .last-section{
+    display: flex;
+  }
+  .row{
+    max-width: 1080px !important;
+    padding: 30px 0;
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+  .column{
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+  }
+  .text{
+    color: wheat;
+  }
 
