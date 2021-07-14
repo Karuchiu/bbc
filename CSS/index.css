@@ -77,16 +77,21 @@
     z-index: -1;
   }
   #section-3{
-      position: relative;
-      width: 55vw;
-      height: 90vh;
+      
+      width: 100vw;
+      height: 100vh;
       background-image: repeating-linear-gradient(black,#202027);
   }
   #section-4{
     position: relative;
-    width: 45vw;
-    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    width: 100vw;
+    height: 60vh;
     background-image: repeating-linear-gradient(#202027, black);
+    
 }
 .socials{
     background-color: white;
@@ -109,9 +114,7 @@
     color: white;
     font-size: 22px;
   }
-  .last-section{
-    display: flex;
-  }
+ 
   .row{
     max-width: 1080px !important;
     padding: 30px 0;
@@ -129,4 +132,59 @@
   .text{
     color: wheat;
   }
-
+ .form-label{
+   display: none;
+ }
+ .empty{
+   width: 45%;
+   color: grey;
+   font-size: 40px;
+   font-weight: 900;
+   text-align: end;
+ }
+ .form-section{
+  width: 55%;
+ }
+ .form{
+  padding: 1rem 4rem;
+  width: 80%;
+  height: 50vh;
+  
+ }
+ .form-input{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 2rem;
+   
+ }
+ .form-input input{
+   border-radius: 5px;
+   border:1px solid orangered;
+   padding: .4em;
+ }
+ .form-input input:focus{
+   border-color: orchid;
+ }
+#message{
+  min-height: 100px;
+  min-width: 470px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.send-btn{
+  float: inline-end;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #1762A7;
+  font-weight: 500;
+  font-size: .9rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: .75rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.send-btn:hover {
+  background-color: #2180D8;
+}
