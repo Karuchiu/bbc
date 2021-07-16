@@ -153,11 +153,13 @@ h2{
   justify-content: space-between;
   width: 600px;
   height: auto;
+  position: relative;
 }
 .album img{
   width: 25vw;
   height: auto;
   margin-bottom: 15px;
+  opacity: 1;
 }
 .album span{
   font-size: 45px;
