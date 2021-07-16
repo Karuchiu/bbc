@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(36, 35, 35);
+}
+.music-article {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  max-width: 1280px;
+  padding-top: 20px;
+  margin-top: 150px;
+}
+.column-wrapper {
+  max-width: none;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 1.3rem;
+  display: flex;
+  width: 100%;
+  font-size: 100%;
+}
+.column-1 {
+  text-align: center;
+  width: 50%;
+}
+.column-1 img {
+  width: 25vw;
+  height: auto;
+  opacity: 1;
+}
+.column-2 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  color: white;
+}
+.column-2 a {
+  background-color: rgba(139, 4, 4, 0.64);
+  border: 0.5px solid red;
+  text-align: center;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 16px;
+  display: block;
+  margin: 0 3px 3px 0;
+  line-height: 60px;
+  width: 215px;
+}
+.music-name{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.music-year{
+    font-size: 20px;
+    font-weight: 800;
+}
