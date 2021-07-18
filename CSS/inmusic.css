@@ -57,3 +57,50 @@ body {
     font-size: 20px;
     font-weight: 800;
 }
+.tracks-section{
+  max-width: 750px;
+  padding: 10px;
+  margin: 0 auto;
+  height: auto;
+  border: none;
+  display: block;
+}
+.tracks-container{
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  float: left;
+}
+.tracks-title{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 15px 0;
+  }
+.tracks-list{
+  justify-content: center;
+  position: relative;
+  display: flex;
+  height: auto;
+  width: 100%;
+  color:rgb(196, 196, 196);
+}
+.tracks-list li{
+  position: relative;
+  margin: 5px 0;
+  padding-left: 5px;
+  font-size: 30px;
+  font-weight: lighter;
+  display: list-item;
+  list-style-type: decimal;
+}
+.tracks-list hr{
+  width:40%;
+  text-align:left;
+  margin-left:0;
+  color: orangered;
+}
+
